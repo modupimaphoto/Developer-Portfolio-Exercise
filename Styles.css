@@ -1,0 +1,28 @@
+:root{
+    --black: rgba(10, 9, 9, 1);
+    --orange: rgba(237, 122, 60, 1);
+    --platinum: rgba(228, 228, 228, 1);
+    --gray: #2C3333;
+
+}
+.bg-black{
+    background-color: var(--black);
+}
+.bg-gray{
+    background-color: var(--gray)
+}
+.width-50{
+    width:50%;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+#bars{
+    cursor:pointer;
+}
+@media screen and (max-width: 924px) {
+    .width-50{
+        width:100%;
+    }
+}
